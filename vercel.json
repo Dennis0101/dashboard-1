@@ -1,0 +1,16 @@
+{
+  "crons": [
+    {
+      "path": "/api/admin/cron/update-prices",
+      "schedule": "*/2 * * * *"
+    },
+    {
+      "path": "/api/admin/cron/update-inventory-valuation",
+      "schedule": "*/5 * * * *"
+    },
+    {
+      "path": "/api/admin/cron/process-transfers",
+      "schedule": "*/1 * * * *"
+    }
+  ]
+}
